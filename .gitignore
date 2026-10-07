@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+
+# vscode
+.vscode
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# Distribution artifacts
+dist/
+*.app
+*.a
+*.dSYM
+*.zip
+build.log
+
+# Python
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.venv/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+
+# Local tooling
+.build-cache/
+.superpowers/
+Library/
+remote_control/
