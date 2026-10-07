@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 90;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B53DCCC3068EDB7003DFCE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B53DCC83068EDB7003DFCE2 /* Assets.xcassets */; };
+		4B53DCF63068EDE4003DFCE2 /* BadgeRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCD53068EDE4003DFCE2 /* BadgeRules.swift */; };
+		4B53DCF73068EDE4003DFCE2 /* MonitoredApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCDD3068EDE4003DFCE2 /* MonitoredApp.swift */; };
+		4B53DCFC3068EDE4003DFCE2 /* FloatingBadgeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCD93068EDE4003DFCE2 /* FloatingBadgeLayout.swift */; };
+		4B53DCFD3068EDE4003DFCE2 /* InstanceLaunchPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCDB3068EDE4003DFCE2 /* InstanceLaunchPolicy.swift */; };
+		4B53DCFE3068EDE4003DFCE2 /* BadgePresentationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCD43068EDE4003DFCE2 /* BadgePresentationTracker.swift */; };
+		4B53DCFF3068EDE4003DFCE2 /* AcknowledgementButtonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCD03068EDE4003DFCE2 /* AcknowledgementButtonLayout.swift */; };
+		4B53DD003068EDE4003DFCE2 /* DockBadgeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCD83068EDE4003DFCE2 /* DockBadgeReader.swift */; };
+		4B53DD013068EDE4003DFCE2 /* PointerCursorPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCDF3068EDE4003DFCE2 /* PointerCursorPolicy.swift */; };
+		4B53DD033068EDE4003DFCE2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCCE3068EDE4003DFCE2 /* main.swift */; };
+		4B53DD063068EDE4003DFCE2 /* KeyboardShortcutPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCDC3068EDE4003DFCE2 /* KeyboardShortcutPolicy.swift */; };
+		4B53DD073068EDE4003DFCE2 /* AppConfigurationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCD23068EDE4003DFCE2 /* AppConfigurationStore.swift */; };
+		4B53DD093068EDE4003DFCE2 /* BubbleForegroundPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCD63068EDE4003DFCE2 /* BubbleForegroundPolicy.swift */; };
+		4B53DD0B3068EDE4003DFCE2 /* ApplicationPickerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCD33068EDE4003DFCE2 /* ApplicationPickerOptions.swift */; };
+		4B53DD0C3068EDE4003DFCE2 /* AppActivationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCD13068EDE4003DFCE2 /* AppActivationPolicy.swift */; };
+		4B53DD0E3068EDE4003DFCE2 /* PanelSpacePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCDE3068EDE4003DFCE2 /* PanelSpacePolicy.swift */; };
+		4B53DD0F3068EDE4003DFCE2 /* FloatingPanelInteractionPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCDA3068EDE4003DFCE2 /* FloatingPanelInteractionPolicy.swift */; };
+		4B53DD133068EDE4003DFCE2 /* DisplaySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCD73068EDE4003DFCE2 /* DisplaySettings.swift */; };
+		4B53DD153068EDE4003DFCE2 /* VisibleAppPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53DCE03068EDE4003DFCE2 /* VisibleAppPolicy.swift */; };
+		B00000000000000000000101 /* libUnreadBadgeCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B00000000000000000000201 /* libUnreadBadgeCore.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B53DD1C3068EF56003DFCE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B00000000000000000000001;
+			remoteInfo = UnreadBadgeCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000120 /* UnreadBadge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnreadBadge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B53DCC83068EDB7003DFCE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B53DCC93068EDB7003DFCE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B53DCCE3068EDE4003DFCE2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4B53DCD03068EDE4003DFCE2 /* AcknowledgementButtonLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementButtonLayout.swift; sourceTree = "<group>"; };
+		4B53DCD13068EDE4003DFCE2 /* AppActivationPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppActivationPolicy.swift; sourceTree = "<group>"; };
+		4B53DCD23068EDE4003DFCE2 /* AppConfigurationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurationStore.swift; sourceTree = "<group>"; };
+		4B53DCD33068EDE4003DFCE2 /* ApplicationPickerOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationPickerOptions.swift; sourceTree = "<group>"; };
+		4B53DCD43068EDE4003DFCE2 /* BadgePresentationTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgePresentationTracker.swift; sourceTree = "<group>"; };
+		4B53DCD53068EDE4003DFCE2 /* BadgeRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeRules.swift; sourceTree = "<group>"; };
+		4B53DCD63068EDE4003DFCE2 /* BubbleForegroundPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleForegroundPolicy.swift; sourceTree = "<group>"; };
+		4B53DCD73068EDE4003DFCE2 /* DisplaySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySettings.swift; sourceTree = "<group>"; };
+		4B53DCD83068EDE4003DFCE2 /* DockBadgeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockBadgeReader.swift; sourceTree = "<group>"; };
+		4B53DCD93068EDE4003DFCE2 /* FloatingBadgeLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingBadgeLayout.swift; sourceTree = "<group>"; };
+		4B53DCDA3068EDE4003DFCE2 /* FloatingPanelInteractionPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanelInteractionPolicy.swift; sourceTree = "<group>"; };
+		4B53DCDB3068EDE4003DFCE2 /* InstanceLaunchPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceLaunchPolicy.swift; sourceTree = "<group>"; };
+		4B53DCDC3068EDE4003DFCE2 /* KeyboardShortcutPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardShortcutPolicy.swift; sourceTree = "<group>"; };
+		4B53DCDD3068EDE4003DFCE2 /* MonitoredApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoredApp.swift; sourceTree = "<group>"; };
+		4B53DCDE3068EDE4003DFCE2 /* PanelSpacePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelSpacePolicy.swift; sourceTree = "<group>"; };
+		4B53DCDF3068EDE4003DFCE2 /* PointerCursorPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointerCursorPolicy.swift; sourceTree = "<group>"; };
+		4B53DCE03068EDE4003DFCE2 /* VisibleAppPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisibleAppPolicy.swift; sourceTree = "<group>"; };
+		4B53DCE33068EDE4003DFCE2 /* AcknowledgementButtonLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementButtonLayoutTests.swift; sourceTree = "<group>"; };
+		4B53DCE43068EDE4003DFCE2 /* AppConfigurationStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigurationStoreTests.swift; sourceTree = "<group>"; };
+		4B53DCE53068EDE4003DFCE2 /* ApplicationPickerOptionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationPickerOptionsTests.swift; sourceTree = "<group>"; };
+		4B53DCE63068EDE4003DFCE2 /* BadgePresentationTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgePresentationTrackerTests.swift; sourceTree = "<group>"; };
+		4B53DCE73068EDE4003DFCE2 /* BadgeRulesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeRulesTests.swift; sourceTree = "<group>"; };
+		4B53DCE83068EDE4003DFCE2 /* BubbleForegroundPolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleForegroundPolicyTests.swift; sourceTree = "<group>"; };
+		4B53DCE93068EDE4003DFCE2 /* DisplaySettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySettingsTests.swift; sourceTree = "<group>"; };
+		4B53DCEA3068EDE4003DFCE2 /* DockBadgeReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockBadgeReaderTests.swift; sourceTree = "<group>"; };
+		4B53DCEB3068EDE4003DFCE2 /* FloatingBadgeLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingBadgeLayoutTests.swift; sourceTree = "<group>"; };
+		4B53DCEC3068EDE4003DFCE2 /* IconSizeStepperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSizeStepperTests.swift; sourceTree = "<group>"; };
+		4B53DCED3068EDE4003DFCE2 /* InstanceLaunchPolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceLaunchPolicyTests.swift; sourceTree = "<group>"; };
+		4B53DCEE3068EDE4003DFCE2 /* InteractionPolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionPolicyTests.swift; sourceTree = "<group>"; };
+		4B53DCEF3068EDE4003DFCE2 /* MonitoredAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoredAppTests.swift; sourceTree = "<group>"; };
+		4B53DCF03068EDE4003DFCE2 /* PanelSpacePolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelSpacePolicyTests.swift; sourceTree = "<group>"; };
+		4B53DCF13068EDE4003DFCE2 /* SettingsSectionPresentationPolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSectionPresentationPolicyTests.swift; sourceTree = "<group>"; };
+		4B53DCF23068EDE4003DFCE2 /* SettingsWindowStylePolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowStylePolicyTests.swift; sourceTree = "<group>"; };
+		4B53DCF33068EDE4003DFCE2 /* VisibleAppPolicyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisibleAppPolicyTests.swift; sourceTree = "<group>"; };
+		4B53DD193068EE20003DFCE2 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		B00000000000000000000201 /* libUnreadBadgeCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUnreadBadgeCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000130000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				B00000000000000000000101 /* libUnreadBadgeCore.a in Frameworks */,
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				4B53DD193068EE20003DFCE2 /* Package.swift */,
+				4B53DCE23068EDE4003DFCE2 /* Sources */,
+				4B53DCF53068EDE4003DFCE2 /* Tests */,
+				4B53DCCB3068EDB7003DFCE2 /* UnreadBadge */,
+				000000000000000000000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000120 /* UnreadBadge.app */,
+				B00000000000000000000201 /* libUnreadBadgeCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B53DCCB3068EDB7003DFCE2 /* UnreadBadge */ = {
+			isa = PBXGroup;
+			children = (
+				4B53DCC83068EDB7003DFCE2 /* Assets.xcassets */,
+				4B53DCC93068EDB7003DFCE2 /* Info.plist */,
+			);
+			path = UnreadBadge;
+			sourceTree = "<group>";
+		};
+		4B53DCCF3068EDE4003DFCE2 /* UnreadBadge */ = {
+			isa = PBXGroup;
+			children = (
+				4B53DCCE3068EDE4003DFCE2 /* main.swift */,
+			);
+			path = UnreadBadge;
+			sourceTree = "<group>";
+		};
+		4B53DCE13068EDE4003DFCE2 /* UnreadBadgeCore */ = {
+			isa = PBXGroup;
+			children = (
+				4B53DCD03068EDE4003DFCE2 /* AcknowledgementButtonLayout.swift */,
+				4B53DCD13068EDE4003DFCE2 /* AppActivationPolicy.swift */,
+				4B53DCD23068EDE4003DFCE2 /* AppConfigurationStore.swift */,
+				4B53DCD33068EDE4003DFCE2 /* ApplicationPickerOptions.swift */,
+				4B53DCD43068EDE4003DFCE2 /* BadgePresentationTracker.swift */,
+				4B53DCD53068EDE4003DFCE2 /* BadgeRules.swift */,
+				4B53DCD63068EDE4003DFCE2 /* BubbleForegroundPolicy.swift */,
+				4B53DCD73068EDE4003DFCE2 /* DisplaySettings.swift */,
+				4B53DCD83068EDE4003DFCE2 /* DockBadgeReader.swift */,
+				4B53DCD93068EDE4003DFCE2 /* FloatingBadgeLayout.swift */,
+				4B53DCDA3068EDE4003DFCE2 /* FloatingPanelInteractionPolicy.swift */,
+				4B53DCDB3068EDE4003DFCE2 /* InstanceLaunchPolicy.swift */,
+				4B53DCDC3068EDE4003DFCE2 /* KeyboardShortcutPolicy.swift */,
+				4B53DCDD3068EDE4003DFCE2 /* MonitoredApp.swift */,
+				4B53DCDE3068EDE4003DFCE2 /* PanelSpacePolicy.swift */,
+				4B53DCDF3068EDE4003DFCE2 /* PointerCursorPolicy.swift */,
+				4B53DCE03068EDE4003DFCE2 /* VisibleAppPolicy.swift */,
+			);
+			path = UnreadBadgeCore;
+			sourceTree = "<group>";
+		};
+		4B53DCE23068EDE4003DFCE2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4B53DCCF3068EDE4003DFCE2 /* UnreadBadge */,
+				4B53DCE13068EDE4003DFCE2 /* UnreadBadgeCore */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4B53DCF43068EDE4003DFCE2 /* UnreadBadgeCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B53DCE33068EDE4003DFCE2 /* AcknowledgementButtonLayoutTests.swift */,
+				4B53DCE43068EDE4003DFCE2 /* AppConfigurationStoreTests.swift */,
+				4B53DCE53068EDE4003DFCE2 /* ApplicationPickerOptionsTests.swift */,
+				4B53DCE63068EDE4003DFCE2 /* BadgePresentationTrackerTests.swift */,
+				4B53DCE73068EDE4003DFCE2 /* BadgeRulesTests.swift */,
+				4B53DCE83068EDE4003DFCE2 /* BubbleForegroundPolicyTests.swift */,
+				4B53DCE93068EDE4003DFCE2 /* DisplaySettingsTests.swift */,
+				4B53DCEA3068EDE4003DFCE2 /* DockBadgeReaderTests.swift */,
+				4B53DCEB3068EDE4003DFCE2 /* FloatingBadgeLayoutTests.swift */,
+				4B53DCEC3068EDE4003DFCE2 /* IconSizeStepperTests.swift */,
+				4B53DCED3068EDE4003DFCE2 /* InstanceLaunchPolicyTests.swift */,
+				4B53DCEE3068EDE4003DFCE2 /* InteractionPolicyTests.swift */,
+				4B53DCEF3068EDE4003DFCE2 /* MonitoredAppTests.swift */,
+				4B53DCF03068EDE4003DFCE2 /* PanelSpacePolicyTests.swift */,
+				4B53DCF13068EDE4003DFCE2 /* SettingsSectionPresentationPolicyTests.swift */,
+				4B53DCF23068EDE4003DFCE2 /* SettingsWindowStylePolicyTests.swift */,
+				4B53DCF33068EDE4003DFCE2 /* VisibleAppPolicyTests.swift */,
+			);
+			path = UnreadBadgeCoreTests;
+			sourceTree = "<group>";
+		};
+		4B53DCF53068EDE4003DFCE2 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4B53DCF43068EDE4003DFCE2 /* UnreadBadgeCoreTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000100000000 /* UnreadBadge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000110000000 /* Build configuration list for PBXNativeTarget "UnreadBadge" */;
+			buildPhases = (
+				000000000000000120000000 /* Sources */,
+				000000000000000130000000 /* Frameworks */,
+				000000000000000140000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00000000000000000000601 /* PBXTargetDependency */,
+			);
+			name = UnreadBadge;
+			productName = UnreadBadge;
+			productReference = 000000000000000000000120 /* UnreadBadge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B00000000000000000000001 /* UnreadBadgeCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00000000000000000000501 /* Build configuration list for PBXNativeTarget "UnreadBadgeCore" */;
+			buildPhases = (
+				B00000000000000000000301 /* Sources */,
+			);
+			buildRules = (
+			);
+			name = UnreadBadgeCore;
+			productName = UnreadBadgeCore;
+			productReference = B00000000000000000000201 /* libUnreadBadgeCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					000000000000000100000000 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = 000000000000000010000000 /* Build configuration list for PBXProject "UnreadBadge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000001;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 90;
+			productRefGroup = 000000000000000000000020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B00000000000000000000001 /* UnreadBadgeCore */,
+				000000000000000100000000 /* UnreadBadge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000140000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				4B53DCCC3068EDB7003DFCE2 /* Assets.xcassets in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000120000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				4B53DD033068EDE4003DFCE2 /* main.swift in Sources */,
+			);
+		};
+		B00000000000000000000301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				4B53DCF63068EDE4003DFCE2 /* BadgeRules.swift in Sources */,
+				4B53DCF73068EDE4003DFCE2 /* MonitoredApp.swift in Sources */,
+				4B53DCFC3068EDE4003DFCE2 /* FloatingBadgeLayout.swift in Sources */,
+				4B53DCFD3068EDE4003DFCE2 /* InstanceLaunchPolicy.swift in Sources */,
+				4B53DCFE3068EDE4003DFCE2 /* BadgePresentationTracker.swift in Sources */,
+				4B53DCFF3068EDE4003DFCE2 /* AcknowledgementButtonLayout.swift in Sources */,
+				4B53DD003068EDE4003DFCE2 /* DockBadgeReader.swift in Sources */,
+				4B53DD013068EDE4003DFCE2 /* PointerCursorPolicy.swift in Sources */,
+				4B53DD063068EDE4003DFCE2 /* KeyboardShortcutPolicy.swift in Sources */,
+				4B53DD073068EDE4003DFCE2 /* AppConfigurationStore.swift in Sources */,
+				4B53DD093068EDE4003DFCE2 /* BubbleForegroundPolicy.swift in Sources */,
+				4B53DD0B3068EDE4003DFCE2 /* ApplicationPickerOptions.swift in Sources */,
+				4B53DD0C3068EDE4003DFCE2 /* AppActivationPolicy.swift in Sources */,
+				4B53DD0E3068EDE4003DFCE2 /* PanelSpacePolicy.swift in Sources */,
+				4B53DD0F3068EDE4003DFCE2 /* FloatingPanelInteractionPolicy.swift in Sources */,
+				4B53DD133068EDE4003DFCE2 /* DisplaySettings.swift in Sources */,
+				4B53DD153068EDE4003DFCE2 /* VisibleAppPolicy.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B00000000000000000000601 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B00000000000000000000001 /* UnreadBadgeCore */;
+			targetProxy = 4B53DD1C3068EF56003DFCE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000011000000 /* Debug configuration for PBXProject "UnreadBadge" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DRIVERKIT_DEPLOYMENT_TARGET = 27.0;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROJECT_UNIQUE_VALUE = Q23P7508;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 27.0;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		000000000000000012000000 /* Release configuration for PBXProject "UnreadBadge" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DRIVERKIT_DEPLOYMENT_TARGET = 27.0;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PROJECT_UNIQUE_VALUE = Q23P7508;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 27.0;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+				XROS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		000000000000000111000000 /* Debug configuration for PBXNativeTarget "UnreadBadge" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = UnreadBadge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "未读消息";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blaine.unreadbadge;
+				PRODUCT_NAME = UnreadBadge;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		000000000000000112000000 /* Release configuration for PBXNativeTarget "UnreadBadge" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = UnreadBadge/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "未读消息";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blaine.unreadbadge;
+				PRODUCT_NAME = UnreadBadge;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		B00000000000000000000711 /* Debug configuration for PBXNativeTarget "UnreadBadgeCore" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_MODULE_NAME = UnreadBadgeCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		B00000000000000000000712 /* Release configuration for PBXNativeTarget "UnreadBadgeCore" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_MODULE_NAME = UnreadBadgeCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000010000000 /* Build configuration list for PBXProject "UnreadBadge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000011000000 /* Debug configuration for PBXProject "UnreadBadge" */,
+				000000000000000012000000 /* Release configuration for PBXProject "UnreadBadge" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		000000000000000110000000 /* Build configuration list for PBXNativeTarget "UnreadBadge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000111000000 /* Debug configuration for PBXNativeTarget "UnreadBadge" */,
+				000000000000000112000000 /* Release configuration for PBXNativeTarget "UnreadBadge" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		B00000000000000000000501 /* Build configuration list for PBXNativeTarget "UnreadBadgeCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00000000000000000000711 /* Debug configuration for PBXNativeTarget "UnreadBadgeCore" */,
+				B00000000000000000000712 /* Release configuration for PBXNativeTarget "UnreadBadgeCore" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000000 /* Project object */;
+}
